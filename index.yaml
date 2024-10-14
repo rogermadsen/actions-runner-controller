@@ -16,7 +16,7 @@ entries:
     - https://github.com/actions/actions-runner-controller
     type: application
     urls:
-    - https://rogermadsen.github.io/actions-runner-controller-0.23.7.tgz
+    - https://rogermadsen.github.io/actions-runner-controller/actions-runner-controller-0.23.7.tgz
     version: 0.23.7
   gha-runner-scale-set:
   - apiVersion: v2
@@ -33,7 +33,7 @@ entries:
     - https://github.com/actions/actions-runner-controller
     type: application
     urls:
-    - https://rogermadsen.github.io/gha-runner-scale-set-0.9.3.tgz
+    - https://rogermadsen.github.io/actions-runner-controller/gha-runner-scale-set-0.9.3.tgz
     version: 0.9.3
   gha-runner-scale-set-controller:
   - apiVersion: v2
@@ -50,6 +50,6 @@ entries:
     - https://github.com/actions/actions-runner-controller
     type: application
     urls:
-    - https://rogermadsen.github.io/gha-runner-scale-set-controller-0.9.3.tgz
+    - https://rogermadsen.github.io/actions-runner-controller/gha-runner-scale-set-controller-0.9.3.tgz
     version: 0.9.3
 generated: "2024-10-14T18:53:20.340311+02:00"
