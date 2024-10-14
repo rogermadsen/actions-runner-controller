@@ -1,0 +1,55 @@
+apiVersion: v1
+entries:
+  actions-runner-controller:
+  - apiVersion: v2
+    appVersion: 0.27.6
+    created: "2024-10-14T18:53:20.346917+02:00"
+    description: A Kubernetes controller that operates self-hosted runners for GitHub
+      Actions on your Kubernetes cluster.
+    digest: dbbcbd5e7d3f05bb3f4596ec25363783d2db3653ae4d70753799c4273375bba6
+    home: https://github.com/actions/actions-runner-controller
+    maintainers:
+    - name: actions-runner-controller
+      url: https://github.com/actions-runner-controller
+    name: actions-runner-controller
+    sources:
+    - https://github.com/actions/actions-runner-controller
+    type: application
+    urls:
+    - https://rogermadsen.github.io/actions-runner-controller-0.23.7.tgz
+    version: 0.23.7
+  gha-runner-scale-set:
+  - apiVersion: v2
+    appVersion: 0.9.3
+    created: "2024-10-14T18:53:20.347452+02:00"
+    description: A Helm chart for deploying an AutoScalingRunnerSet
+    digest: a82f66ec98e1a089712879cfd2838aad9b62eebd983ecc339d20e6a51488f8e5
+    home: https://github.com/actions/actions-runner-controller
+    maintainers:
+    - name: actions
+      url: https://github.com/actions
+    name: gha-runner-scale-set
+    sources:
+    - https://github.com/actions/actions-runner-controller
+    type: application
+    urls:
+    - https://rogermadsen.github.io/gha-runner-scale-set-0.9.3.tgz
+    version: 0.9.3
+  gha-runner-scale-set-controller:
+  - apiVersion: v2
+    appVersion: 0.9.3
+    created: "2024-10-14T18:53:20.353011+02:00"
+    description: A Helm chart for install actions-runner-controller CRD
+    digest: 3c342cd707e74c2b1c50c050a1d08ef41030f8e3a7f4dd76ffae785af3d0af2d
+    home: https://github.com/actions/actions-runner-controller
+    maintainers:
+    - name: actions
+      url: https://github.com/actions
+    name: gha-runner-scale-set-controller
+    sources:
+    - https://github.com/actions/actions-runner-controller
+    type: application
+    urls:
+    - https://rogermadsen.github.io/gha-runner-scale-set-controller-0.9.3.tgz
+    version: 0.9.3
+generated: "2024-10-14T18:53:20.340311+02:00"
